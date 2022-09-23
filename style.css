@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat";
+  font-size: 62.5%;
+  width: 100%;
+}
+
+.topo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  color: #f9f9f9;
+  height: 60px;
+  background: #181818;
+  width: 100%;
+}
+
+.topo p {
+  font-size: 1.6rem;
+}
+
+.titulo {
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  height: 47px;
+}
+
+.titulo h1 {
+  font-size: 2.4rem;
+}
+
+.banner {
+  background-image: url("./Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.png");
+  background-size: cover;
+  width: 100%;
+  height: 378px;
+  box-shadow: inset 0 0 0 200px rgba(24, 24, 24, 0.6);
+}
+
+.banner h1 {
+  position: absolute;
+  width: 400px;
+  height: 39px;
+  left: 100px;
+  top: 248px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #f9f9f9;
+}
+
+.banner p {
+  position: absolute;
+  width: 460px;
+  height: 70px;
+  left: 100px;
+  top: 306px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 196.19%;
+  /* or 35px */
+
+  display: flex;
+  align-items: center;
+
+  color: #f9f9f9;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5.8rem 0;
+  gap: 2rem;
+}
+
+.foot h1 {
+  font-size: 3.2rem;
+}
+
+.foot p {
+  font-size: 1.8rem;
+}
+
+/* .shoes {
+    margin: 5.9rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 1.3rem;
+    row-gap: 3.9rem;
+    padding: 4rem;
+}
+
+.shoes img {
+    background: #EBE9EA;
+    width: 30rem;
+    height: 30.2rem;
+} */
+
+.shoes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  row-gap: 3.9rem;
+}
+
+/* .shoes-container img {
+    background: #EBE9EA;
+    margin: 1.3rem;
+} */
+
+.shoes-top {
+  display: flex;
+}
+
+.shoes-bottom {
+  display: flex;
+}
+
+.card {
+  padding: 0 1.3rem;
+}
+
+.card img {
+  background: #ebe9ea;
+  width: 30rem;
+  height: 30.2rem;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  color: #f9f9f9;
+  height: 60px;
+  background: #181818;
+  width: 100%;
+}
+
+footer div p {
+  font-size: 1.8rem;
+}
