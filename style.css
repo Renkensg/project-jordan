@@ -98,22 +98,6 @@ body {
   font-size: 1.8rem;
 }
 
-/* .shoes {
-    margin: 5.9rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    column-gap: 1.3rem;
-    row-gap: 3.9rem;
-    padding: 4rem;
-}
-
-.shoes img {
-    background: #EBE9EA;
-    width: 30rem;
-    height: 30.2rem;
-} */
-
 .shoes-container {
   display: flex;
   flex-direction: column;
@@ -122,11 +106,6 @@ body {
   margin: 5rem;
   row-gap: 3.9rem;
 }
-
-/* .shoes-container img {
-    background: #EBE9EA;
-    margin: 1.3rem;
-} */
 
 .shoes-top {
   display: flex;
@@ -144,6 +123,10 @@ body {
   background: #ebe9ea;
   width: 30rem;
   height: 30.2rem;
+}
+
+.card img:hover {
+  background: #181818;
 }
 
 footer div {
